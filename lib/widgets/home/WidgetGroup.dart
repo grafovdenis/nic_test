@@ -12,9 +12,9 @@ class WidgetGroup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(left: 16, top: 16, bottom: 16),
+      padding: EdgeInsets.all(16),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Padding(
             padding: const EdgeInsets.only(bottom: 14),

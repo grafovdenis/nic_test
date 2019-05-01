@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class NewsItem extends StatelessWidget {
   String date;
-  AssetImage image;
+  Image image;
   String description;
   bool isLast;
 
-  NewsItem(String date, AssetImage image, String description, bool isLast) {
+  NewsItem(String date, Image image, String description, bool isLast) {
     this.date = date;
     this.image = image;
     this.description = description;
@@ -26,7 +26,7 @@ class NewsItem extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Container(height: 80, width: 80, child: Image(image: image)),
+            Container(height: 80, width: 80, child: image),
             Container(
               decoration: (!isLast)
                   ? new BoxDecoration(

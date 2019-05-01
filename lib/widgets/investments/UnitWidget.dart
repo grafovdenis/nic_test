@@ -51,7 +51,7 @@ class _UnitWidgetState extends State<UnitWidget> {
     );
 
     Widget items = Padding(
-        padding: const EdgeInsets.only(left: 16),
+        padding: const EdgeInsets.only(left: 16, right: 16),
         child: Column(
           children: <Widget>[
             InvestmentItem(

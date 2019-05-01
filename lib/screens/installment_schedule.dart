@@ -84,7 +84,8 @@ class _InstallmentScheduleState extends State<InstallmentSchedule> {
           width: 272,
           padding: const EdgeInsets.only(left: 36),
           child: Text(
-            "График платежей по рассрочке",
+            "График платежей по\nрассрочке",
+            softWrap: true,
             style: TextStyle(
                 color: Colors.black,
                 fontFamily: "SF Pro Text",

@@ -18,13 +18,13 @@ class News extends StatelessWidget {
       padding: const EdgeInsets.only(left: 16, top: 16),
       child: Column(
         children: <Widget>[
-          new NewsItem("3 февраля", AssetImage('assets/news/news_1.png'),
+          new NewsItem("3 февраля", Image(image: AssetImage('assets/news/news_1.png')),
               "Презентация инвест-отеля IN2IT в Краснодаре", false),
-          new NewsItem("19 февраля", AssetImage('assets/news/news_1.png'),
+          new NewsItem("19 февраля", Image(image: AssetImage('assets/news/news_1.png')),
               "Офис продаж на Витебском проспекте", false),
-          new NewsItem("15 ноября 2018", AssetImage('assets/news/news_1.png'),
+          new NewsItem("15 ноября 2018", Image(image: AssetImage('assets/news/news_1.png')),
               "Презентация инвест-отеля IN2IT", false),
-          new NewsItem("6 ноября 2018", AssetImage('assets/news/news_1.png'),
+          new NewsItem("6 ноября 2018", Image(image: AssetImage('assets/news/news_1.png')),
               "IN2IT на Ярмарке Недвижимости!", true)
         ],
       ));

@@ -9,8 +9,6 @@ class InvestmentItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(right: 16.0),
-      width: 312,
       height: 44,
       decoration: new BoxDecoration(
           border: new Border(

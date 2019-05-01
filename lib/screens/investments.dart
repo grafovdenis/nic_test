@@ -63,12 +63,16 @@ class _MyInvestmentsPageState extends State<MyInvestmentsPage> {
 
     final body = <Widget>[
       Container(
-          height: 463, // Кажется, что сделать иначе невозможно
+          height: 463,
+          // Решение: избавиться от PageView и использовать горизонтальный ListView
+          // или https://gist.github.com/yunyu/ac6812d6c550da1f31ae464bef8b37ea
           child: PageView(
             children: contractWidgets,
           )),
       Container(
-        height: 700, // Кажется, что сделать иначе невозможно
+        height: 730,
+        // Решение: избавиться от PageView и использовать горизонтальный ListView
+        // или https://gist.github.com/yunyu/ac6812d6c550da1f31ae464bef8b37ea
         child: PageView(
           children: unitWidgets,
         ),

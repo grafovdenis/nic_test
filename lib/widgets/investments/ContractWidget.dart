@@ -49,7 +49,7 @@ class _ContractWidgetState extends State<ContractWidget> {
     );
 
     Widget items = Padding(
-        padding: const EdgeInsets.only(left: 16),
+        padding: const EdgeInsets.only(left: 16, right: 16),
         child: Column(
           children: <Widget>[
             InvestmentItem(
